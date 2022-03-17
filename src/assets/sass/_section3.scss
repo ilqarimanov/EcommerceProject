@@ -1,0 +1,88 @@
+.section3{
+        background-color: #f4f4f4;
+        .productItem{
+  
+                height: 400px !important; 
+                transition: 0.5s;
+                &:hover{
+                    box-shadow:20px 20px 50px grey;  
+                    button{
+                        background-color: #fed700;
+                    }
+                }
+                .card-title{
+                    font-weight: 500;
+                    color: #768B9E;
+                }
+                h5{
+                    font-weight: 700;
+                    color: #0062bd;
+                    font-size: 15px;
+                }
+                del{
+                    color: #768b9e;
+                    font-size: 15px;
+                    line-height: 1.5em;
+                }
+                p.card-text{
+                    color: #dc3545;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                button{
+                    border-radius: 100%;
+                    width: 50px;
+                    height: 50px;
+                    background-color: #eaeaea;
+                    border: none;
+                    transition: 0.5s;
+                }
+            
+        }
+        .productItem2{
+            height: 800px;
+            transition: 0.5s;
+            &:hover{
+                box-shadow:20px 20px 50px grey;  
+                button{
+                    background-color: #fed700;
+                }
+            }
+            .card-title{
+                font-weight: 500;
+                color: #768B9E;
+            }
+            h5{
+                font-weight: 700;
+                color: #0062bd;
+                font-size: 18px;
+            }
+            del{
+                color: #768b9e;
+                font-size: 15px;
+                line-height: 1.5em;
+            }
+            p.card-text{
+                color: #dc3545;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            button{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                background-color: #eaeaea;
+                border: none;
+                transition: 0.5s;
+            }
+            .mini{
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid rgb(146, 144, 144);
+                    margin-right: 5px;
+                }
+            }
+           
+        }
+}

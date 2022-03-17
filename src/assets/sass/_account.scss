@@ -1,0 +1,74 @@
+.account{
+    .link{
+        width: 100%;
+        height: 170px;
+        background-color: rgb(238, 238, 238);
+        .link1{
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        .link2{
+            color: #d8b90d;
+            font-weight: 700;
+            font-size: 20px;
+            margin-left: 2px;
+            margin-top: 25px;
+        }
+    }
+    .login, .register{
+        h1{
+            color: #333e48;
+            font-size: 1.571em;
+        font-weight: 400;
+        flex-shrink: 0;
+        }
+        .line{
+            position: relative;
+            .line2{
+                background-color: #fed700;
+                width: 200px;
+                height: 2px;
+                position: absolute;
+                top: 0px;
+            }
+        }
+        .input{
+    width: 100%;
+    padding: 0.594rem 1rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    color: #333e48;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    appearance: none;
+    border-radius: 1.375rem;
+    box-shadow: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        label{
+            font-size: 1em;
+    line-height: 1.286em;
+    font-weight: 700;
+    margin-bottom: 0.857em;
+    color: #333e48;
+    margin: 30px 0px 10px 0px;
+        }
+        button{
+            background-color: #efecec;
+            border-color: #efecec;
+            color: #333e48;
+            padding: 13px;
+            width: 140px;
+            border-radius: 30px;
+            border: none;
+        }
+        .icon{
+            color: green;
+            font-size: 20px;
+        }
+    }
+}

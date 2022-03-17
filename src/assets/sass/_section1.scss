@@ -1,0 +1,140 @@
+.section1{
+    .menu{
+        display: flex;
+         height: 40px;
+        .all{
+          background-color: #fed700;
+          width: 260px;
+          height: 40px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      .ul1{
+          padding: 0px;
+          width: 55%;
+          height: 40px;
+  
+          li{
+              list-style: none;
+              width: 25%;
+              a{
+                  text-decoration: none;
+                  color: #29323a;
+              }
+          }
+          .li1{
+              z-index: 3;
+              color: #df3737;
+              &:hover{
+                  .open{
+                      display: flex !important;
+                  }
+              }
+              .open{
+                 display: none !important;
+                 transition: 0.5s !important;
+              }
+          }
+      }
+      .ul2{
+          width: 1000px !important;
+          margin-top: 2px;
+          background-color: white;
+          padding: 0%;
+          border-top: 2px solid #fed700;
+          li{
+              width: 200px;
+              margin-top: 5px;
+              a{
+                  transition: 0.2s;
+                  &:hover{
+                      color: red;
+                   
+                  }
+              }
+          }
+  
+      }
+  }
+    .bg{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    ul{
+        background-color: white;
+        width: 260px;
+        height: 370px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        li{
+            list-style: none;
+            height: 31px;
+            border-bottom: 1px solid #ddd;
+            color: #333e48;
+            font-weight: 500;
+        }
+        .end{
+            border: none;
+        }
+    }
+    .carousel{
+        height: 400px;
+        width: 70%;
+        .button{
+            background-color: #FED700 ;
+        }
+        .text{
+            h1{
+                font-weight: 100;
+                font-size: 50px;
+            }
+            h2{
+                font-weight: 100;
+                font-size: 40px;
+            }
+            h5{
+                color: #34bcec;
+            }
+            b{
+                font-size: 50px;
+            }
+          
+            button{
+                background-color: #FED700;
+                border: none;
+                border-radius: 10px;
+                width: 85%;
+            }
+        }
+
+        img{
+            height: 370px;
+        }
+    }
+}
+.shop{
+    background-color: #f5f5f5;
+    width: 370px;
+    height: 139px;
+    img{
+        width: 150px;
+        height: 100px;
+    }
+    p{
+        width: 150px;
+    }
+    b{
+        button{
+            border: none;
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            color: white;
+            background-color: #FED700;
+        }
+    }
+}
+
+}

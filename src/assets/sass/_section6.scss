@@ -1,0 +1,10 @@
+.section6{
+    .container{
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 20px 0px;
+        .slick-prev:before, .slick-next:before{
+            color: black;
+        }
+    }
+}

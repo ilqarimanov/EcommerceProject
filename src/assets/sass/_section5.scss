@@ -1,0 +1,97 @@
+.section5{
+    // background-color: #0062bd;
+    height: 500px;
+    .slider{
+    
+        height: 350px;
+         position: relative;
+         .slick-prev:before, .slick-next:before{
+            color: black;  
+        }
+        .slick-prev{
+            position: absolute;
+            top: -40px;
+            left: 94%;  
+        }
+        .slick-next{
+            position: absolute;
+            top: -40px;
+            right: 0px;
+        }
+        .slick-dots button:before{
+            font-size: 14px;
+
+        }
+        .slick-dots li.slick-active button:before {
+            font-size: 20px;
+            color: #fed700;
+            border-radius: 10px !important;
+        }
+    }
+    h1{
+        color: #333e48;
+        font-size: 1.571em;
+    font-weight: 400;
+    flex-shrink: 0;
+    }
+    .line{
+        position: relative;
+        .line2{
+            background-color: #fed700;
+            width: 200px;
+            height: 2px;
+            position: absolute;
+            top: 0px;
+        }
+    }
+    .box{
+        margin-top: 10px;
+        border-right: 1px solid #ddd;
+        &:hover{
+            box-shadow:20px 20px 50px grey;  
+            .end1{
+                border-bottom: 1px solid #ddd;
+            }
+            .end2{
+                display: block;
+            }
+        }
+
+        .p1{
+            color: #333e48;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        h6{
+            color: #0062bd;
+            font-weight: 700;
+        }
+        img{
+            width: 140px;
+        }
+        .end1{
+           
+            .price{
+                color: #333e48;
+                font-weight: 500;
+                font-size: 20px;
+            }
+            button{
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                background-color: #eaeaea;
+                border-color: #eaeaea;
+                transition: 0.5s;
+                font-size: 15px;
+                &:hover{
+                    background-color: #fed700;
+                }
+            }
+        }
+        .end2{
+            display: none;
+            transition: 1s;
+        }
+    }
+}

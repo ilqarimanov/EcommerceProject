@@ -1,0 +1,121 @@
+.about{
+    .aboutheader{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/img71.jpg');
+        background-size: cover;
+        background-position: center;
+        p{
+            width: 40%;
+            text-align: center;
+            color: rgb(107, 4, 4);
+            font-weight: bold;
+        }
+    }
+    .aboutsection1{
+        .col1{
+            margin-top: 50px;
+            img{
+                width: 100%;
+            }
+            .text{
+                text-align: center;
+                h5{
+                    font-weight: 600;
+                    color: #333e48
+                }
+                p{
+                    width: 90%;
+                    font-size: .875rem;
+                    font-weight: 400;
+                    line-height: 1.714;
+                    color: #333e48;
+                }
+            }
+            .img1, .img2, .img3{
+                width: 100%;
+                height: 240px;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 0.5s;
+                &:hover{
+                    background-size: 110%;
+                    background-position: center;
+                }
+            }
+            .img1{
+                background-image: url('../img/img72.jpg');
+            }
+            .img2{
+                background-image: url('../img/img73.jpg');
+            }
+            .img3{
+                background-image: url('../img/img74.jpg');
+            }
+        }
+    }
+    .aboutsection2{
+        width: 100%;
+        background: #ececec;
+        .img1, .img2, .img3, .img4, .img5{
+            width: 100%;
+            height: 170px;
+            border-radius: 100%;
+            background-size: 100%;
+            transition: 0.5s;
+            background-position: center;
+            &:hover{
+                background-size: 110%;
+                background-position: center;
+            }
+        }
+        .img1{background-image: url('../img/people1.jpg');}
+        .img2{background-image: url('../img/people2.jpg');}
+        .img3{background-image: url('../img/people3.jpg');}
+        .img4{background-image: url('../img/people4.jpg');}
+        .img5{background-image: url('../img/people5.jpg');}
+        h5{
+            margin: 20px 0px;
+            font-weight: 700;
+            color: #333e48;
+        }
+        p{
+            font-weight: 600;
+            color: #989898;
+        }
+    }
+    .aboutsection3{
+        .row1{
+            width: 65%;
+            h5{
+                margin: 20px 0px;
+                font-weight: 700;
+                color: #333e48;
+            }
+            p{
+                font-weight: 600;
+                color: #989898;
+            }
+        }
+        .row2{
+            width: 32%;
+            button{
+                margin-bottom: 20px;
+                border: none;
+                width: 40px;
+                height: 40px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 5px;
+            }
+            .title{
+                margin-left: 10px;
+                margin-top : 5px;
+                font-weight: bold;
+            }
+        }
+    }
+}

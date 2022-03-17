@@ -1,0 +1,43 @@
+.section7{
+    .text{
+        .line{
+            height: 20px;
+            .line1{
+                width: 20%;
+                background-color: #fed700;
+                height: 2px;
+            }
+            .line2{
+                width: 60%;
+                background-color: #ddd;
+                height: 1px;
+            }
+        }
+    }
+    .product{
+        width: 250px;
+        height: 100px;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+        .producttext{
+            width: 65%;
+            .desc{
+                color: #0062bd;
+                font-weight: 700;
+                font-size: 13px;
+                // line-height: 20px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .star{
+                color: #fed700;
+            }
+        }
+    }
+    img{
+        width: 270px;
+        height: 294px;
+    }
+}

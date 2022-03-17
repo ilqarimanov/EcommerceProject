@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import AppRouter from './components/routers/App'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import './assets/sass/style.css'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+ReactDOM.render(<AppRouter/>, document.getElementById('root'));
+
+// store.dispatch(getBlogsFromDatabase()).then(()=>{
+//     ReactDOM.render(result, document.getElementById('root'));
+// })

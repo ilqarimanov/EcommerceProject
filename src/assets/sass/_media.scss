@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px){
+header{
+    .head1{
+        display: none;
+    }
+    .head2{
+        display: none !important;
+    }
+    .navbar {
+        margin: 0px !important;
+        .logo{
+            display: flex !important;
+            position: absolute;
+            left: 10px;
+            width: 100px;
+        }
+        .nav-links {
+            display: none !important;
+        }
+
+        .nav-links-mobile {
+            position: absolute;
+            display: block;
+            list-style: none;
+            z-index: 10;
+            left: 0;
+            top: 65px;
+            transition: all 0.5s ease-out;
+            width: 100%;
+            background-color: #fed700;
+        }
+
+        .link {
+            color: white;
+            text-align: center;
+            width: 100%;
+            transition: all 0.5s ease;
+        }
+        .link2{
+            display: flex !important;
+            justify-content: center;
+
+            .icon{
+                color: black;
+            }
+            div{
+                color: black;
+            }
+        }
+
+        .mobile-menu-icon {
+            display: block !important;
+            position: absolute;
+            z-index: 10 !important;
+            font-size: 30px;
+            color: black;
+            border: none;
+            outline: none;
+            top: 8px;
+            right: 25px;
+            background-color: #fed700;
+        }
+
+        li {
+            transition: 2s;
+        }
+
+        hr {
+            display: none;
+        }
+
+        .active {
+            color: #eacf4f !important;
+            border-bottom: 2px solid #eacf4f;
+        }
+
+        .link1,
+        .dropdown {
+            position: absolute;
+            left: 45%;
+
+            .number {
+                left: 30px !important;
+            }
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+.menu{
+    display: none !important;
+    }
+.section1{
+        .bg{
+        height: 300px;
+        ul{
+            display: none;
+        }
+        .carousel{
+            height: 300px;
+            width: 100%;
+            .text{
+                h1{
+                    font-weight: 100;
+                    font-size: 25px;
+                }
+                h2{
+                    
+                    font-size: 15px;
+                }
+               
+                b{
+                    font-size: 20px;
+                }
+              
+                button{
+                    width: 70%;
+                }
+            }
+    
+            img{
+                height: 270px;
+            }
+        }
+    }
+    .shops{
+        justify-content: center !important;
+        .shop{
+            margin-bottom: 15px;
+        }
+    }
+    }
+
+    
+}

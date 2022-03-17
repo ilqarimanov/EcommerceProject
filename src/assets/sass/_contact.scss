@@ -1,0 +1,72 @@
+.contact{
+	h2{
+    	font-family: cursive;
+		font-weight: bold;
+    	font-size: 30px;
+    	color: #403866;
+   	    line-height: 1.2;
+	}
+	h4{
+		font-family: cursive;
+		font-weight: bold;
+    	font-size: 20px;
+    	color: #403866;
+   	    line-height: 1.2;
+	}
+	form{
+		input, textarea{
+			border: none;
+			border-radius: 20px;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	        &:focus{
+				outline: none;
+			}	
+		}
+		.subject{
+			width: 89%;
+		}
+		textarea{
+			width: 89%;
+			height: 200px;
+		}
+		button{
+			border: none;
+			background-color: #FED700;
+			width: 35%;
+			height: 50px;
+			border-radius: 30px;
+			margin-top: 40px;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+			margin-left: 5px;
+		}
+	}
+	iframe {
+		width: 100%;
+		height: 550px;
+	}
+	.contactsection2{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		.row{
+			width: 80%;
+		}
+		.circle{
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			background-color: #FED700;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 25px;
+		}
+		p{
+			width: 100%;
+			text-align: center;
+			margin-top: 15px;
+			font-weight: bold;
+			color: rgb(43, 42, 42);
+		}
+	}
+}

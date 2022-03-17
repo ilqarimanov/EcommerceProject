@@ -1,0 +1,155 @@
+.section2{
+    .row1{
+        width: 40%;
+        border: 4px solid #fed700;
+        border-radius: 20px;
+        .text1{
+            h5{
+                font-size: 1.571em;
+                font-weight: 400;
+                color: #333e48;
+            }
+            .text2{
+                background-color: #fed700;
+                width: 76px;
+                height: 76px;
+                border-radius: 80px;
+                color: #000;
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: 700;
+                span{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .text3{
+                text-align: center;
+                .title{
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 1.167em;
+                    height: 2.334em;
+                    color: #0062bd;
+                }
+                .price{
+                    color: #dc3545;
+                    font-size: 30px;
+                    font-weight: 600;
+                    del{
+                        color: #768b9e;
+                        font-size: .6em;
+                        line-height: 1.5em;
+                    }
+                }
+                .desc{
+                    color: #768b9e;
+                    font-size: 17px;
+                    line-height: 1.5em;
+                }
+            .timer{
+                .counter{
+                    width: 70%;
+                    .time{
+                        width: 50px;
+                        height: 50px;
+                        background-color: #E6E6E6;
+                        border-radius: 5px;
+                        color: #383838;
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+                    .timename{
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: #383838;
+                    }
+                }
+            }
+        }
+    }
+    .row2{
+        width: 60%;
+        .buttons{
+            display: flex;
+            justify-content: space-evenly;
+            button{
+                width: 150px;
+                height: 50px;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+        .row3{
+            width: 100%;
+            .box{
+                margin-top: 30px;
+                position: relative;
+                height: 300px;
+                border-right: 1px solid #ddd;
+                &:hover{
+                    box-shadow:20px 20px 50px grey;  
+                    .end1{
+                        border-bottom: 1px solid #ddd;
+                    }
+                    .end2{
+                        display: block;
+                    }
+                }
+        
+                .p1{
+                    color: #333e48;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                h6{
+                    color: #0062bd;
+                    font-weight: 700;
+                    height: 50px;
+                }
+                .img{
+                    width: 100%;
+                    img{
+                        width: 140px;
+                    }
+                }
+                .end1{
+                    .price{
+                        color: #333e48;
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                    button{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100%;
+                        background-color: #eaeaea;
+                        border-color: #eaeaea;
+                        transition: 0.5s;
+                        font-size: 15px;
+                        &:hover{
+                            background-color: #fed700;
+                        }
+                    }
+                }
+                .end2{
+                    width: 212px;
+                    display: none;
+                    transition: 1s;
+                    position: absolute;
+                    left: 0px;
+                    z-index: 4;
+                    background-color: white;
+        
+                }
+            }
+
+        }
+    }
+}

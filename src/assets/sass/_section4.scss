@@ -1,0 +1,70 @@
+.section4{
+    padding: 5px 0px;
+    .carousel{
+        height: 400px;
+        button{
+            background-color: #fed700;
+            border-radius: 37% !important ;
+            height: 10px;
+            width: 30px;
+            
+        }
+    }
+    .productItem3{
+        height: 170px;
+        transition: 0.5s;
+        border-right: 1px solid rgb(165, 165, 165);
+                &:hover{
+                    // box-shadow: 0 0 6px 0 rgb(1 1 1 / 30%); 
+                    button{
+                        background-color: #fed700;
+                    }
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                .card-text1{
+                    width: 200px;
+                }
+               
+                .card-title{
+                    font-weight: 500;
+                    color: #768B9E;
+                }
+                h5{
+                    font-weight: 700;
+                    color: #0062bd;
+                    font-size: 15px;
+                }
+                del{
+                    color: #768b9e;
+                    font-size: 15px;
+                    line-height: 1.5em;
+                }
+                p.card-text{
+                    color: #dc3545;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                button{
+                    border-radius: 100%;
+                    width: 50px;
+                    height: 50px;
+                    background-color: #eaeaea;
+                    border: none;
+                    transition: 0.5s;
+                    &:hover{
+                        button{
+                            background-color: #fed700;
+                            
+                        }
+                    }
+                }
+
+
+    }
+    .img{
+        width: 100%;
+    }
+}
